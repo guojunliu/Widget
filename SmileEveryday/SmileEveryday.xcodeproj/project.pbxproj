@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6BB0D224F79D9300C5F546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BB0D124F79D9300C5F546 /* AppDelegate.m */; };
+		AA6BB0D524F79D9400C5F546 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BB0D424F79D9300C5F546 /* SceneDelegate.m */; };
+		AA6BB0D824F79D9400C5F546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BB0D724F79D9400C5F546 /* ViewController.m */; };
+		AA6BB0DB24F79D9400C5F546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6BB0D924F79D9400C5F546 /* Main.storyboard */; };
+		AA6BB0DD24F79D9500C5F546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6BB0DC24F79D9500C5F546 /* Assets.xcassets */; };
+		AA6BB0E024F79D9500C5F546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6BB0DE24F79D9500C5F546 /* LaunchScreen.storyboard */; };
+		AA6BB0E324F79D9500C5F546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6BB0E224F79D9500C5F546 /* main.m */; };
+		AA6BB0F024F79DB900C5F546 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6BB0EF24F79DB900C5F546 /* WidgetKit.framework */; };
+		AA6BB0F224F79DB900C5F546 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6BB0F124F79DB900C5F546 /* SwiftUI.framework */; };
+		AA6BB0F524F79DB900C5F546 /* SmileEverydaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BB0F424F79DB900C5F546 /* SmileEverydaWidget.swift */; };
+		AA6BB0F724F79DBA00C5F546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6BB0F624F79DBA00C5F546 /* Assets.xcassets */; };
+		AA6BB0FB24F79DBA00C5F546 /* SmileEverydaWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA6BB0ED24F79DB900C5F546 /* SmileEverydaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA84017424F7EB54003277DB /* PoetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84017324F7EB54003277DB /* PoetryView.swift */; };
+		AA84017524F7EB54003277DB /* PoetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84017324F7EB54003277DB /* PoetryView.swift */; };
+		AAA6A5E924F80BF5008CEE61 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6A5E824F80BF5008CEE61 /* WidgetManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6BB0F924F79DBA00C5F546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6BB0C524F79D9300C5F546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6BB0EC24F79DB900C5F546;
+			remoteInfo = SmileEverydaWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA6BB0FF24F79DBA00C5F546 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA6BB0FB24F79DBA00C5F546 /* SmileEverydaWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA6BB0CD24F79D9300C5F546 /* SmileEveryday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileEveryday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6BB0D024F79D9300C5F546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA6BB0D124F79D9300C5F546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA6BB0D324F79D9300C5F546 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AA6BB0D424F79D9300C5F546 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AA6BB0D624F79D9400C5F546 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA6BB0D724F79D9400C5F546 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA6BB0DA24F79D9400C5F546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6BB0DC24F79D9500C5F546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6BB0DF24F79D9500C5F546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6BB0E124F79D9500C5F546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6BB0E224F79D9500C5F546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA6BB0ED24F79DB900C5F546 /* SmileEverydaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SmileEverydaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6BB0EF24F79DB900C5F546 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AA6BB0F124F79DB900C5F546 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AA6BB0F424F79DB900C5F546 /* SmileEverydaWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileEverydaWidget.swift; sourceTree = "<group>"; };
+		AA6BB0F624F79DBA00C5F546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6BB0F824F79DBA00C5F546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA84017224F7EB53003277DB /* SmileEveryday-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmileEveryday-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA84017324F7EB54003277DB /* PoetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryView.swift; sourceTree = "<group>"; };
+		AAA6A5E824F80BF5008CEE61 /* WidgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6BB0CA24F79D9300C5F546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BB0EA24F79DB900C5F546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BB0F224F79DB900C5F546 /* SwiftUI.framework in Frameworks */,
+				AA6BB0F024F79DB900C5F546 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6BB0C424F79D9300C5F546 = {
+			isa = PBXGroup;
+			children = (
+				AA6BB0CF24F79D9300C5F546 /* SmileEveryday */,
+				AA6BB0F324F79DB900C5F546 /* SmileEverydaWidget */,
+				AA6BB0EE24F79DB900C5F546 /* Frameworks */,
+				AA6BB0CE24F79D9300C5F546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6BB0CE24F79D9300C5F546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB0CD24F79D9300C5F546 /* SmileEveryday.app */,
+				AA6BB0ED24F79DB900C5F546 /* SmileEverydaWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6BB0CF24F79D9300C5F546 /* SmileEveryday */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB0D024F79D9300C5F546 /* AppDelegate.h */,
+				AA6BB0D124F79D9300C5F546 /* AppDelegate.m */,
+				AA6BB0D324F79D9300C5F546 /* SceneDelegate.h */,
+				AA6BB0D424F79D9300C5F546 /* SceneDelegate.m */,
+				AA6BB0D624F79D9400C5F546 /* ViewController.h */,
+				AA6BB0D724F79D9400C5F546 /* ViewController.m */,
+				AAA6A5E824F80BF5008CEE61 /* WidgetManager.swift */,
+				AA6BB0D924F79D9400C5F546 /* Main.storyboard */,
+				AA6BB0DC24F79D9500C5F546 /* Assets.xcassets */,
+				AA6BB0DE24F79D9500C5F546 /* LaunchScreen.storyboard */,
+				AA6BB0E124F79D9500C5F546 /* Info.plist */,
+				AA6BB0E224F79D9500C5F546 /* main.m */,
+			);
+			path = SmileEveryday;
+			sourceTree = "<group>";
+		};
+		AA6BB0EE24F79DB900C5F546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB0EF24F79DB900C5F546 /* WidgetKit.framework */,
+				AA6BB0F124F79DB900C5F546 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA6BB0F324F79DB900C5F546 /* SmileEverydaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BB0F424F79DB900C5F546 /* SmileEverydaWidget.swift */,
+				AA84017324F7EB54003277DB /* PoetryView.swift */,
+				AA6BB0F624F79DBA00C5F546 /* Assets.xcassets */,
+				AA6BB0F824F79DBA00C5F546 /* Info.plist */,
+				AA84017224F7EB53003277DB /* SmileEveryday-Bridging-Header.h */,
+			);
+			path = SmileEverydaWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6BB0CC24F79D9300C5F546 /* SmileEveryday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BB0E624F79D9500C5F546 /* Build configuration list for PBXNativeTarget "SmileEveryday" */;
+			buildPhases = (
+				AA6BB0C924F79D9300C5F546 /* Sources */,
+				AA6BB0CA24F79D9300C5F546 /* Frameworks */,
+				AA6BB0CB24F79D9300C5F546 /* Resources */,
+				AA6BB0FF24F79DBA00C5F546 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6BB0FA24F79DBA00C5F546 /* PBXTargetDependency */,
+			);
+			name = SmileEveryday;
+			productName = SmileEveryday;
+			productReference = AA6BB0CD24F79D9300C5F546 /* SmileEveryday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6BB0EC24F79DB900C5F546 /* SmileEverydaWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BB0FC24F79DBA00C5F546 /* Build configuration list for PBXNativeTarget "SmileEverydaWidgetExtension" */;
+			buildPhases = (
+				AA6BB0E924F79DB900C5F546 /* Sources */,
+				AA6BB0EA24F79DB900C5F546 /* Frameworks */,
+				AA6BB0EB24F79DB900C5F546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileEverydaWidgetExtension;
+			productName = SmileEverydaWidgetExtension;
+			productReference = AA6BB0ED24F79DB900C5F546 /* SmileEverydaWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6BB0C524F79D9300C5F546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AA6BB0CC24F79D9300C5F546 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					AA6BB0EC24F79DB900C5F546 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = AA6BB0C824F79D9300C5F546 /* Build configuration list for PBXProject "SmileEveryday" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6BB0C424F79D9300C5F546;
+			productRefGroup = AA6BB0CE24F79D9300C5F546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6BB0CC24F79D9300C5F546 /* SmileEveryday */,
+				AA6BB0EC24F79DB900C5F546 /* SmileEverydaWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6BB0CB24F79D9300C5F546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BB0E024F79D9500C5F546 /* LaunchScreen.storyboard in Resources */,
+				AA6BB0DD24F79D9500C5F546 /* Assets.xcassets in Resources */,
+				AA6BB0DB24F79D9400C5F546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BB0EB24F79DB900C5F546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BB0F724F79DBA00C5F546 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6BB0C924F79D9300C5F546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA84017424F7EB54003277DB /* PoetryView.swift in Sources */,
+				AAA6A5E924F80BF5008CEE61 /* WidgetManager.swift in Sources */,
+				AA6BB0D824F79D9400C5F546 /* ViewController.m in Sources */,
+				AA6BB0D224F79D9300C5F546 /* AppDelegate.m in Sources */,
+				AA6BB0E324F79D9500C5F546 /* main.m in Sources */,
+				AA6BB0D524F79D9400C5F546 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BB0E924F79DB900C5F546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BB0F524F79DB900C5F546 /* SmileEverydaWidget.swift in Sources */,
+				AA84017524F7EB54003277DB /* PoetryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6BB0FA24F79DBA00C5F546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6BB0EC24F79DB900C5F546 /* SmileEverydaWidgetExtension */;
+			targetProxy = AA6BB0F924F79DBA00C5F546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6BB0D924F79D9400C5F546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6BB0DA24F79D9400C5F546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6BB0DE24F79D9500C5F546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6BB0DF24F79D9500C5F546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6BB0E424F79D9500C5F546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA6BB0E524F79D9500C5F546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6BB0E724F79D9500C5F546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZCY3RQN93G;
+				INFOPLIST_FILE = SmileEveryday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steve.liu.SmileEveryday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmileEverydaWidget/SmileEveryday-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6BB0E824F79D9500C5F546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZCY3RQN93G;
+				INFOPLIST_FILE = SmileEveryday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steve.liu.SmileEveryday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmileEverydaWidget/SmileEveryday-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA6BB0FD24F79DBA00C5F546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCY3RQN93G;
+				INFOPLIST_FILE = SmileEverydaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steve.liu.SmileEveryday.SmileEverydaWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6BB0FE24F79DBA00C5F546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCY3RQN93G;
+				INFOPLIST_FILE = SmileEverydaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steve.liu.SmileEveryday.SmileEverydaWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6BB0C824F79D9300C5F546 /* Build configuration list for PBXProject "SmileEveryday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BB0E424F79D9500C5F546 /* Debug */,
+				AA6BB0E524F79D9500C5F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BB0E624F79D9500C5F546 /* Build configuration list for PBXNativeTarget "SmileEveryday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BB0E724F79D9500C5F546 /* Debug */,
+				AA6BB0E824F79D9500C5F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BB0FC24F79DBA00C5F546 /* Build configuration list for PBXNativeTarget "SmileEverydaWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BB0FD24F79DBA00C5F546 /* Debug */,
+				AA6BB0FE24F79DBA00C5F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6BB0C524F79D9300C5F546 /* Project object */;
+}
