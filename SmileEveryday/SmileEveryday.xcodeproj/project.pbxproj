@@ -22,6 +22,11 @@
 		AA84017424F7EB54003277DB /* PoetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84017324F7EB54003277DB /* PoetryView.swift */; };
 		AA84017524F7EB54003277DB /* PoetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84017324F7EB54003277DB /* PoetryView.swift */; };
 		AAA6A5E924F80BF5008CEE61 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6A5E824F80BF5008CEE61 /* WidgetManager.swift */; };
+		AACDC6E124F95177001DCBBA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6BB0EF24F79DB900C5F546 /* WidgetKit.framework */; };
+		AACDC6E224F95177001DCBBA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6BB0F124F79DB900C5F546 /* SwiftUI.framework */; };
+		AACDC6E524F95177001DCBBA /* SmileEverydayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDC6E424F95177001DCBBA /* SmileEverydayWidget.swift */; };
+		AACDC6E724F95178001DCBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACDC6E624F95178001DCBBA /* Assets.xcassets */; };
+		AACDC6EB24F95178001DCBBA /* SmileEverydayWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AACDC6E024F95177001DCBBA /* SmileEverydayWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,13 @@
 			remoteGlobalIDString = AA6BB0EC24F79DB900C5F546;
 			remoteInfo = SmileEverydaWidgetExtension;
 		};
+		AACDC6E924F95178001DCBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6BB0C524F79D9300C5F546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACDC6DF24F95177001DCBBA;
+			remoteInfo = SmileEverydayWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +53,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				AACDC6EB24F95178001DCBBA /* SmileEverydayWidgetExtension.appex in Embed App Extensions */,
 				AA6BB0FB24F79DBA00C5F546 /* SmileEverydaWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -70,6 +83,10 @@
 		AA84017224F7EB53003277DB /* SmileEveryday-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmileEveryday-Bridging-Header.h"; sourceTree = "<group>"; };
 		AA84017324F7EB54003277DB /* PoetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryView.swift; sourceTree = "<group>"; };
 		AAA6A5E824F80BF5008CEE61 /* WidgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetManager.swift; sourceTree = "<group>"; };
+		AACDC6E024F95177001DCBBA /* SmileEverydayWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SmileEverydayWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACDC6E424F95177001DCBBA /* SmileEverydayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileEverydayWidget.swift; sourceTree = "<group>"; };
+		AACDC6E624F95178001DCBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AACDC6E824F95178001DCBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +106,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AACDC6DD24F95177001DCBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACDC6E224F95177001DCBBA /* SwiftUI.framework in Frameworks */,
+				AACDC6E124F95177001DCBBA /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +123,7 @@
 			children = (
 				AA6BB0CF24F79D9300C5F546 /* SmileEveryday */,
 				AA6BB0F324F79DB900C5F546 /* SmileEverydaWidget */,
+				AACDC6E324F95177001DCBBA /* SmileEverydayWidget */,
 				AA6BB0EE24F79DB900C5F546 /* Frameworks */,
 				AA6BB0CE24F79D9300C5F546 /* Products */,
 			);
@@ -107,6 +134,7 @@
 			children = (
 				AA6BB0CD24F79D9300C5F546 /* SmileEveryday.app */,
 				AA6BB0ED24F79DB900C5F546 /* SmileEverydaWidgetExtension.appex */,
+				AACDC6E024F95177001DCBBA /* SmileEverydayWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +179,16 @@
 			path = SmileEverydaWidget;
 			sourceTree = "<group>";
 		};
+		AACDC6E324F95177001DCBBA /* SmileEverydayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AACDC6E424F95177001DCBBA /* SmileEverydayWidget.swift */,
+				AACDC6E624F95178001DCBBA /* Assets.xcassets */,
+				AACDC6E824F95178001DCBBA /* Info.plist */,
+			);
+			path = SmileEverydayWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +205,7 @@
 			);
 			dependencies = (
 				AA6BB0FA24F79DBA00C5F546 /* PBXTargetDependency */,
+				AACDC6EA24F95178001DCBBA /* PBXTargetDependency */,
 			);
 			name = SmileEveryday;
 			productName = SmileEveryday;
@@ -190,6 +229,23 @@
 			productReference = AA6BB0ED24F79DB900C5F546 /* SmileEverydaWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		AACDC6DF24F95177001DCBBA /* SmileEverydayWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACDC6EE24F95178001DCBBA /* Build configuration list for PBXNativeTarget "SmileEverydayWidgetExtension" */;
+			buildPhases = (
+				AACDC6DC24F95177001DCBBA /* Sources */,
+				AACDC6DD24F95177001DCBBA /* Frameworks */,
+				AACDC6DE24F95177001DCBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileEverydayWidgetExtension;
+			productName = SmileEverydayWidgetExtension;
+			productReference = AACDC6E024F95177001DCBBA /* SmileEverydayWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +260,9 @@
 						LastSwiftMigration = 1200;
 					};
 					AA6BB0EC24F79DB900C5F546 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AACDC6DF24F95177001DCBBA = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -223,6 +282,7 @@
 			targets = (
 				AA6BB0CC24F79D9300C5F546 /* SmileEveryday */,
 				AA6BB0EC24F79DB900C5F546 /* SmileEverydaWidgetExtension */,
+				AACDC6DF24F95177001DCBBA /* SmileEverydayWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA6BB0F724F79DBA00C5F546 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACDC6DE24F95177001DCBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACDC6E724F95178001DCBBA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +339,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AACDC6DC24F95177001DCBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACDC6E524F95177001DCBBA /* SmileEverydayWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,6 +354,11 @@
 			isa = PBXTargetDependency;
 			target = AA6BB0EC24F79DB900C5F546 /* SmileEverydaWidgetExtension */;
 			targetProxy = AA6BB0F924F79DBA00C5F546 /* PBXContainerItemProxy */;
+		};
+		AACDC6EA24F95178001DCBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACDC6DF24F95177001DCBBA /* SmileEverydayWidgetExtension */;
+			targetProxy = AACDC6E924F95178001DCBBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -506,6 +587,52 @@
 			};
 			name = Release;
 		};
+		AACDC6EC24F95178001DCBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCY3RQN93G;
+				INFOPLIST_FILE = SmileEverydayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steve.liu.SmileEveryday.SmileEverydayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AACDC6ED24F95178001DCBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCY3RQN93G;
+				INFOPLIST_FILE = SmileEverydayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steve.liu.SmileEveryday.SmileEverydayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -532,6 +659,15 @@
 			buildConfigurations = (
 				AA6BB0FD24F79DBA00C5F546 /* Debug */,
 				AA6BB0FE24F79DBA00C5F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACDC6EE24F95178001DCBBA /* Build configuration list for PBXNativeTarget "SmileEverydayWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACDC6EC24F95178001DCBBA /* Debug */,
+				AACDC6ED24F95178001DCBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
